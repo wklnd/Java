@@ -15,14 +15,11 @@ import java.util.Scanner;  // Importerar scanner klassen, använder den för att
 public class KphToKn2 {
     public static void main(String[] args) {
         System.out.println("Knop till Km/H konverterare!");
-
         float omvandlingsfaktor = 1.852F;
         float hastighet;
         Scanner scanner = new Scanner(System.in);  // Skapar ett Scanner-objekt för input
-
         System.out.print("Skriv in en hastighet i knop:");//Använder Print istället för Println så input är på samma rad
         String knop = scanner.nextLine();  // Läser av inmatning som en string, sparar i variabeln knop.
-
         // Denna del kontrollerar om inputen endast innehåller siffror, annars så kör den om loopen.
         while (true) {
             if (knop.matches("\\d+")) { // regex: \d = siffra, + = 1 eller fler

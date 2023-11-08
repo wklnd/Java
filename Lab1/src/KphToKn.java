@@ -13,6 +13,6 @@ public class KphToKn {
         System.out.print("Skriv in en hastighet i knop: ");
         float hastighetKnop = scanner.nextFloat(); // Tar in input som en float
         System.out.println(hastighetKnop + " knop motsvarar " + (hastighetKnop * 1.852F) + " km/h"); // Skriver ut resultatet
-        scanner.close(); // Stänger av scannern för att minimera resursläckage
+        scanner.close(); // Stänger av skannern för att minimera resursläckage
     }
 }

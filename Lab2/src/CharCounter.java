@@ -45,7 +45,6 @@ public class CharCounter {
                 }
             }
         }
-
         // Om tecknet förekommer i meningen, skriv ut indexplatsen för den sista förekomsten
         if (antalForekomster > 0) {
             int sistaForekomstIndex = mening.lastIndexOf(tecken);
@@ -54,7 +53,6 @@ public class CharCounter {
             // Om tecknet inte förekommer i meningen, skriv ut ett meddelande om detta
             System.out.println("Tecknet '" + tecken + "' fanns inte i meningen.");
         }
-
         // Stänger Scanner-objektet när det inte längre används för att undvika resursläckage.
         textInput.close();
     }
