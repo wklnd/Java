@@ -9,6 +9,6 @@ public class Addera {
         int a = scanner.nextInt();
         System.out.print("Skriv in ett till heltal: ");
         int b = scanner.nextInt();
-        System.out.println(a+b);
+        System.out.println(a + "+" + b +"=" +(a+b)); // måste vara parentheses runt a+b, annars blir det lustigt.
     }
 }

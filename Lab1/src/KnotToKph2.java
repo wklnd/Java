@@ -12,7 +12,7 @@ Det finns validering av input. Görs genom "matches("\\d+")" för att kontroller
 
 import java.util.Scanner;  // Importerar scanner klassen, använder den för att läsa av User-input
 
-public class KphToKn2 {
+public class KnotToKph2 {
     public static void main(String[] args) {
         System.out.println("Knop till Km/H konverterare!");
         float omvandlingsfaktor = 1.852F;

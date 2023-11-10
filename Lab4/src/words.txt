@@ -1,0 +1,4 @@
+sten, stone
+väg, road
+hus, house
+blå, blue
