@@ -1,0 +1,14 @@
+bok,book
+hus,house
+katt,cat
+träd,tree
+dator,computer
+boll,ball
+bil,car
+båt,boat
+flygplan,airplane
+tåg,train
+cykel,bicycle
+buss,bus
+
+

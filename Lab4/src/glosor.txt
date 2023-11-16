@@ -1,0 +1,5 @@
+hund : dog
+hus : house
+vatten : water
+sol : sun
+bok : book
