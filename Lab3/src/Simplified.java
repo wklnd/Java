@@ -47,47 +47,8 @@ class MeanUniqueNumbersSimplified {
         int sum = Arrays.stream(numbers).sum(); // Lagrar alla tal i en ström och summerar dem
         return (float) sum / numbers.length; // Delar summan (sum) med antalet tal (numbers.length)
     }
-    // Räknar antalet unika tal
-    /**
-        public static int countUniqueNumbers(int[] numbers) {
-            // Skapar en array för att lagra sett unika tal
-            int[] seenNumbers = new int[numbers.length]; // Längden på denna array är samma som längden på numbers
-            int seenIndex = 0;
 
-            // Skapar en array för att lagra duplicerade tal
-            int[] duplicateNumbers = new int[numbers.length]; //Längden på denna array är samma som längden på numbers
-            int duplicateIndex = 0;
-
-            // Loopar igenom varje tal i den givna arrayen
-            for (int number : numbers) {
-                // Om talet redan har setts och inte redan lagts till i duplicerade tal-arrayen
-                if (containsNumber(seenNumbers, seenIndex, number) && !containsNumber(duplicateNumbers, duplicateIndex, number)) {
-                    // Lägger till talet i duplicerade tal-arrayen
-                    duplicateNumbers[duplicateIndex++] = number;
-                }
-                // Om talet inte har setts tidigare
-                else if (!containsNumber(seenNumbers, seenIndex, number)) {
-                    // Lägger till talet i set unika tal-arrayen
-                    seenNumbers[seenIndex++] = number;
-                }
-            }
-
-            // Returnerar antalet unika tal genom att subtrahera antalet duplicerade tal från antalet sett unika tal
-            return seenIndex - duplicateIndex;
-        }
-
-        // Hjälpmetod för att kontrollera om ett tal redan finns i en array
-        private static boolean containsNumber(int[] array, int length, int number) {
-            for (int i = 0; i < length; i++) {
-                if (array[i] == number) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-*/
-
+    // Beräknar antalet unika tal
     public static int countUniqueNumbers(int[] numbers) {
         // Skapar en lista för att lagra sett unika tal
         List<Integer> seenNumbers = new ArrayList<>();
