@@ -7,6 +7,5 @@ boll,balle
 bil,voiture
 båt,bateau
 flygplan,avion
-tåg,train
 cykel,vélo
 buss,autobus

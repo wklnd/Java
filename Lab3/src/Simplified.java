@@ -20,7 +20,7 @@ class MeanUniqueNumbersSimplified {
             System.out.print("Ange antalet heltal: ");
             try {
                 numberOfInts = scanner.nextInt();
-                break;
+                break; // Break bryter loopen om det är en int som skrivs in
             } catch (InputMismatchException e) {
                 System.out.println("Felaktig input, försök igen");
                 scanner.next(); // Rensa bufferten för felaktig input
@@ -47,7 +47,6 @@ class MeanUniqueNumbersSimplified {
         int sum = Arrays.stream(numbers).sum(); // Lagrar alla tal i en ström och summerar dem
         return (float) sum / numbers.length; // Delar summan (sum) med antalet tal (numbers.length)
     }
-
     // Beräknar antalet unika tal
     public static int countUniqueNumbers(int[] numbers) {
         // Skapar en lista för att lagra sett unika tal
@@ -71,5 +70,4 @@ class MeanUniqueNumbersSimplified {
         // Returnerar antalet unika tal genom att subtrahera antalet duplicerade tal från antalet sett unika tal
         return seenNumbers.size() - duplicateNumbers.size();
     }
-    
 }

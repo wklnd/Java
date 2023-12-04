@@ -26,7 +26,7 @@ public class Main {
                 case 2:
                     // Öppna inställningar
                     // ToDo: Flytta till separat fil
-                    // Hämtar och visar nuvarande tröskel frn LevenshteinStringComparator.java
+                    // Hämtar och visar nuvarande tröskel från LevenshteinStringComparator.java
                     System.out.println("Nuvarande tröskel: " + LevenshteinStringComparator.getThreshold());
                     System.out.println("Ange ny tröskel: ");
                     int newThreshold = scanner.nextInt();

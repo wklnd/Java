@@ -1,6 +1,7 @@
 public class DoubleSum {
     //Konstruera metoden sumOfNumbers som tar två parametrar av typen double. Metoden skall returnera summan av parametrarna.
 
+
     static double sumOfNumbers(double a, double b) {
 
         return a + b;
@@ -26,7 +27,9 @@ public class DoubleSum {
     }
 
     public static void main(String[]args){
-        loopDouble(5);
+
+        System.out.println(sumOfNumbers(2.5, 3.5));
     }
+
 
 }
