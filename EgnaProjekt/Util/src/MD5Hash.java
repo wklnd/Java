@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-//Write a Java program that returns an MD5 hash
+//Goal : Write a Java program that returns an MD5 hash
+
 public class MD5Hash {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
